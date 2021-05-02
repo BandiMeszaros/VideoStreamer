@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 public class TCPServer {
 
     private static final int THREAD_COUNT = 5;
-    private static final int PORT= 25000;
+    private static final int PORT= 2500;
 
     public static void main(String[] args) {
         try{

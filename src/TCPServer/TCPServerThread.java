@@ -21,6 +21,7 @@ public class TCPServerThread implements Runnable{
          PrintWriter printWriter = new PrintWriter (socket.getOutputStream ());
          String line;
          while ((line = bReader.readLine ()) != null) {
+             System.out.println(line);
              printWriter.println (line.toUpperCase ());
              printWriter.flush ();
          }
